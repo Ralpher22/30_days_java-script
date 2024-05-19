@@ -1,0 +1,107 @@
+html{
+    background:#018DED ;
+    background-size: cover;
+    font-family:'heveltica neue' ;
+    text-align: center;
+    font-size: 10px;
+}
+
+
+
+
+body{text-align: 20px;
+    display: flex;
+    flex: 1;
+    min-height: 100%;
+    align-items: center;
+}
+
+
+
+.clock{
+    width: 30rem;
+    height: 30rem;
+    border: 20px solid white;
+    border-radius: 50%;
+    margin: 50px auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 
+    0 0 0px 4px rgba(0, 0, 0, 1),
+    inset 0 0 0 3px #efefef,
+    inset 0 0 10px black,
+    0 0 10px rgba(0, 0, 0, 2) ;
+
+}
+
+.clock-face{
+position: relative;
+width: 100%;
+height: 100%;
+transform: translateY(-3px);
+}
+
+.hand{
+    width: 50%;
+    height: 6px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    transform-origin: 100%;
+    transform: rotate(90deg);
+    transition: all 0.05s;
+    transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+/* C numbers 
+.number {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+  }
+  */
+  /* Position each number element around the clock face based on its value 
+  
+  .number-1 {
+    transform: translate(-50%, -50%) rotate(-30deg);
+  }
+  
+  .number-2 {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+   .number-3 {
+    transform: translate(-50%, -50%) rotate(-90deg);
+  }
+  .number-4{
+    transform: translate(-50%, -50%) rotate(-120deg);
+  }
+  .number-5 {
+    transform: translate(-50%, -50%) rotate(-150deg);
+  }
+  .number-6 {
+    transform: translate(-50%, -50%) rotate(-180deg);
+  }
+  .number-7 {
+    transform: translate(-50%, -50%) rotate(-210deg);
+  }
+  .number-8 {
+    transform: translate(-50%, -50%) rotate(-60deg);
+  }
+  .number-9 {
+    transform: translate(-50%, -50%) rotate(-240deg);
+  }
+  .number-10 {
+    transform: translate(-50%, -50%) rotate(-270deg);
+  }
+  .number-11{
+    transform: translate(-50%, -50%) rotate(-300deg);
+  }
+  .number-12 {
+    transform: translate(-50%, -50%) rotate(-330deg);
+  }
+  */
